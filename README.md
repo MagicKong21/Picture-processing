@@ -12,24 +12,18 @@
 
 # 用法
 
-1. 使用 Python3 运行程序，输入商品 ID
+1. 使用 Python3 运行程序，输入商品 ID；
 
 ```shell
 cd src
 python3 app.py
 ```
 
-2. 处理好的图片以 `date_文件名.png` 保存到 img 文件夹下
-
-3. 最后将自动删除原图片
-
-4. 程序可能存在 Bug，建议检查生成结果是否正确
+2. 处理好的图片以 `date_文件名.png` 保存到 img 文件夹下；
+4. 程序可能存在 Bug，建议检查生成结果是否正确。
 
 # 说明
 
 - 本程序会读取系统时间，所以请在当天使用才能生成正确的链接及二维码 (现在可以自定义输入了，好耶✌️)；
-
-- 需要使用 `pip install -r requirements.txt` 命令安装第三方库；
-
-- Windows 用户可以直接 [点击此处前往](https://github.com/007ayong/Picture-processing/releases/latest) 下载。
+- 需要使用 `pip install -r requirements.txt` 命令安装第三方库。
 
